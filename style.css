@@ -19,18 +19,22 @@ header {
 }
 /* navigation styling  */
 ul {
-	border: 1px dashed black;
+	/* border: 1px dashed black; */
+	padding: 8px 0px;
 	background-color: #272727;
 	list-style-type: none;
 }
 li {
 	/* width: 100%; */
-	border: 1px dashed black;
-	padding: 5px;
+	/* border: 1px dashed black; */
+	padding: 8px 10px;
 	display: inline;
 	/* float: left; */
 	color: white;
 }
 li:hover {
 	background-color: #424242;
+}
+.active {
+	background: #424242;
 }
