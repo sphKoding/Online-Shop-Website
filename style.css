@@ -1,3 +1,36 @@
+* {
+	margin: 0;
+}
 body {
-    font-size: 15pt;
+	font-size: 15pt;
+}
+
+/* header and section content spacing */
+header, section {
+	padding: 8px 35px;
+}
+
+/* header styling */
+header {
+	background-color: #757575;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* navigation styling  */
+ul {
+	border: 1px dashed black;
+	background-color: #272727;
+	list-style-type: none;
+}
+li {
+	/* width: 100%; */
+	border: 1px dashed black;
+	padding: 5px;
+	display: inline;
+	/* float: left; */
+	color: white;
+}
+li:hover {
+	background-color: #424242;
 }
