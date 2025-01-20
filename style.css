@@ -13,6 +13,9 @@ header, section {
 /* header styling */
 header {
 	background-color: #757575;
+}
+/* sticky navigation styling */
+.stickyContainer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
