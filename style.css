@@ -2,12 +2,12 @@
 	margin: 0;
 }
 body {
-	font-size: 15pt;
+	font-size: 12pt;
 }
 
 /* header and section content spacing */
 header, section {
-	padding: 10px 40px;
+	padding: 10px 50px;
 }
 
 /* header styling */
@@ -27,10 +27,11 @@ header {
 	top: 0;
 	border-radius: 20px;
 	padding: 10px;
-	background: rgba(19, 19, 19, 0.2);
+	background: rgba(19, 19, 19, 0.3);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: white;
 }
 /* navigation styling  */
 ul {
