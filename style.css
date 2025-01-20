@@ -12,10 +12,17 @@ header, section {
 
 /* header styling */
 header {
+	height: 584px;
 	background-color: #757575;
 }
 /* sticky navigation styling */
 .stickyContainer {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	border-radius: 20px;
+	padding: 10px;
+	background: rgba(19, 19, 19, 0.2);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
