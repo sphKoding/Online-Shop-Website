@@ -14,7 +14,7 @@ header, section {
 header {
 	height: 584px;
 	/* background-color: #757575; */
-	background-image: url(MIUI01.jpg);
+	background-image: url(headerBackground01.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
