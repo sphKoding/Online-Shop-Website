@@ -37,7 +37,7 @@ header {
 ul {
 	/* border: 1px dashed black; */
 	padding: 8px 0px;
-	background-color: #272727;
+	/* background-color: #272727; */
 	list-style-type: none;
 }
 li {
@@ -49,7 +49,8 @@ li {
 	color: white;
 }
 li:hover {
-	background-color: #424242;
+	background-color: white;
+	color: black;
 }
 .active {
 	background: #424242;
