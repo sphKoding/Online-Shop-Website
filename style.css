@@ -60,7 +60,7 @@ header .active {
 	/* background: #424242; */
 }
 /* hero styling */
-.hero {
+.heroContainer {
 	margin: 10px 0px;
 	border: 1px dashed black;
 	width: 100%;
