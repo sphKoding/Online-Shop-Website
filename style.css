@@ -6,7 +6,7 @@ body {
 }
 
 /* header and section content spacing */
-header, section, footer {
+header, section, .footerContent, .footerCopyright {
 	padding: 10px 50px;
 }
 
@@ -63,4 +63,9 @@ header .active {
 /* footer styling  */
 footer {
 	background: #f878a0;
+}
+footer .footerCopyright {
+	background: #e87098;
+	display: flex;
+	justify-content: space-between;
 }
