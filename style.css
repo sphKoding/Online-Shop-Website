@@ -1,3 +1,4 @@
+/* default small changes */
 * {
 	margin: 0;
 }
@@ -11,6 +12,20 @@ img {
  width: 100%;
  height: auto;
 }
+
+/* assets */
+.picContainer {
+ width: 300px;
+ height: 400px;
+ padding: 10px;
+ background: white;
+ display: flex;
+ justify-content: center;
+}
+.picContainer img {
+ width: 100%;
+ height: 300px;
+} 
 
 /* header and section content spacing */
 header, section, .footerContent, .footerCopyright {
@@ -77,18 +92,6 @@ header .active {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-}
-.picContainer {
- width: 300px;
- height: 400px;
- padding: 10px;
- background: white;
- display: flex;
- justify-content: center;
-}
-.picContainer img {
- width: 100%;
- height: 300px;
 }
 
 /* section styling */
