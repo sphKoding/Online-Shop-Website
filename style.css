@@ -14,7 +14,7 @@ header, section, .footerContent, .footerCopyright {
 header {
 	height: 584px;
 	/* background-color: #757575; */
-	background-image: url(headerBackground02.jpg);
+	background-image: url(/headerBackground02_1.jpeg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
