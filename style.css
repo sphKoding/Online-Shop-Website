@@ -91,6 +91,19 @@ header .active {
  height: 300px;
 }
 
+/* section styling */
+.jeffVariety {
+ /* display: flex; */
+ /* flex-direction: column; */
+ /* justify-content: center; */
+ text-align: center;
+}
+.productContainer {
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+
 /* footer styling  */
 footer {
 	background: #f878a0;
