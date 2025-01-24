@@ -41,15 +41,18 @@ header {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	overflow: hidden;
 }
 /* sticky navigation styling */
 header .stickyContainer {
- width: 80%;
+ width: 84%;
  justify-self: center;
 	position: fixed;
 	/* position: -webkit-sticky;
 	position: sticky; */
-	/* width: 100%; */
 	/* position: fixed; */
 	top: 10px;
 	border-radius: 20px;
