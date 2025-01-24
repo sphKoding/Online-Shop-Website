@@ -46,8 +46,9 @@ header {
 header .stickyContainer {
  width: 80%;
  justify-self: center;
-	position: -webkit-sticky;
-	position: sticky;
+	position: fixed;
+	/* position: -webkit-sticky;
+	position: sticky; */
 	/* width: 100%; */
 	/* position: fixed; */
 	top: 10px;
