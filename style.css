@@ -46,7 +46,7 @@ header {
 	/* justify-content: center; */
 	overflow: hidden;
 }
-/* sticky navigation styling */
+/* navigation styling */
 header .stickyContainer {
  width: 84%;
  justify-self: center;
@@ -89,7 +89,7 @@ header .active {
 }
 /* hero styling */
 .heroContainer {
-	margin: 10px 0px;
+	margin: 70px 0px 10px 0px;
 	border: 1px dashed black;
 	width: 100%;
 	height: 500px;
