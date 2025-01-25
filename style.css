@@ -16,6 +16,8 @@ button {
  width: 100%;
  height: auto;
  margin: 10px 0px;
+ border: none;
+ border-radius: 12px;
  padding: 10px;
  font-size: 20px
 }
@@ -24,8 +26,8 @@ button {
 .picContainer {
  width: 280px;
  height: 370px;
- box-shadow: 10px 12px #888888;
- margin: 15px;
+ box-shadow: 12px 12px 12px #f277a4;
+ margin: 16px;
  border: 5px outset #CDCDCD;
  padding: 10px;
  background: white;
@@ -36,7 +38,17 @@ button {
 .picContainer img {
  width: 100%;
  height: 300px;
-} 
+}
+button.order {
+ background: #f24987;
+ color: white;
+ transition: background 1s, border 2s, color 1s;
+}
+button.order:hover {
+ background: #f2a0b6;
+ border: 2px solid #f24171;
+ color: black;
+}
 
 /* header and section content spacing */
 header, section, .footerContent, .footerCopyright {
@@ -52,6 +64,7 @@ header {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+	/* opacity: 0.3; */
 	display: flex;
 	flex-direction: column;
 	/* justify-content: center; */
