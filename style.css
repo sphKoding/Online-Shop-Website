@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body {
-	font-size: 12pt;
+	font-size: 1.1em;
 }
 div {
  overflow: hidden;
@@ -12,15 +12,26 @@ img {
  width: 100%;
  height: auto;
 }
+button {
+ width: 100%;
+ height: auto;
+ margin: 10px 0px;
+ padding: 10px;
+ font-size: 20px
+}
 
 /* assets */
 .picContainer {
- width: 300px;
- height: 400px;
+ width: 280px;
+ height: 370px;
+ box-shadow: 10px 12px #888888;
+ margin: 15px;
+ border: 5px outset #CDCDCD;
  padding: 10px;
  background: white;
- display: flex;
- justify-content: center;
+ /* display: flex;
+ flex-direction: column;
+ justify-content: center; */
 }
 .picContainer img {
  width: 100%;
