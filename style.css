@@ -135,6 +135,10 @@ header .active {
  justify-content: space-evenly;
  flex-wrap: wrap;
 }
+.productContainer .picContainer {
+ width: 150px;
+ height: 300px;
+}
 
 /* footer styling  */
 footer {
