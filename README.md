@@ -1,7 +1,4 @@
-# Online Shop Website
+> note: 
+> Images aren't rendered supported in Notepad++ 
 
-note: Images aren't rendered supported in Notepad++ 
-
-> testing paragraph
-> 
-> line 3
+# Online Shop Website 
