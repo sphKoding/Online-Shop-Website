@@ -175,6 +175,19 @@ div.heroText {
  justify-content: space-evenly;
  flex-wrap: wrap;
 }
+div.cropContainer {
+	width: 100%;
+	height: 180px;
+	/* border: 1px dashed black; */
+}
+ div.cropPic {
+		width: 100%;
+		height: 180px;
+		border: 1px dashed black;
+		background-image: url(/jeffPics/ahjussiJeff.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 .productContainer .productPic {
  width: 150px;
  height: 250px;
@@ -184,6 +197,10 @@ div.heroText {
 /* footer styling  */
 footer {
 	background: #f878a0;
+}
+div.footerContent {
+	column-count: 3;
+	column-gap: 40px;
 }
 footer .footerCopyright {
 	background: #e87098;
