@@ -43,14 +43,14 @@ div#heroImage {
 	background-color: white;
  padding: 5px;
 }
-div#productPic {
+/* div#productPic {
 	width: 180px;
 	height: 250px;
 	margin: 12px;
-	/* border: 1px dashed	black; */
+	border: 1px dashed	black;
 	box-shadow: 8px 10px 25px black;
 	color: black;
-}
+} */
 
 /* assets (unorganized) */
 .picContainer {
@@ -175,12 +175,12 @@ div.heroText {
  justify-content: space-evenly;
  flex-wrap: wrap;
 }
-div.cropContainer {
-	width: 100%;
-	height: 180px;
-	margin: 0px 0px 10px 0px;
-	border: 1px dashed black;
-}
+ div.cropContainer {
+	 width: 100%;
+	 height: 180px;
+	 /* margin: 0px 0px 10px 0px; */
+	 /* border: 1px dashed black; */
+ }
  div.cropPic {
 		/* width: 100%; */
 		height: 180px;
@@ -191,11 +191,15 @@ div.cropContainer {
 		background-attachment: scroll;
 		background-size: cover;
 	}
-.productContainer .productPic {
+	div.productContainer p {
+		margin: 10px 5px 10px 5px;
+		border: 1px dashed black;
+	}
+/* .productContainer .productPic {
  width: 150px;
  height: 250px;
 	border: 1px dashed	black;
-}
+} */
 
 /* footer styling  */
 footer {
