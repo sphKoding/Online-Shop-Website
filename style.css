@@ -32,7 +32,6 @@ div.assetBoxShadow {
 	width: 180px;
 	height:	250px;
 	margin: 12px;
-	/* border: 1px dashed	black; */
 	box-shadow: 8px 10px 25px black;
 	background: white;
 	text-align: left;
