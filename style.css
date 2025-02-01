@@ -182,7 +182,7 @@ div.heroText {
 	 /* margin: 0px 0px 10px 0px; */
 	 /* border: 1px dashed black; */
  }
-	div#cropAhjussiJeff, div#cropAngyJeff, div#cropEmoJeff, div#cropNerdJeff {
+	div#cropAhjussiJeff, div#cropAngyJeff, div#cropEmoJeff, div#cropNerdJeff, div#bBoyJeff {
   background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: scroll;
@@ -197,9 +197,15 @@ div.heroText {
 		div#cropEmoJeff {
 			background-image: url(/jeffPics/emoJeff.jpg);
 		}
-		div#cropNerdJeff {
-			background-image: url(/jeffPics/nerdJeff.jpg);
+  div#cropNerdJeff, div#bBoyJeff {
+			background-position: 0px -20px;
 		}
+			div#cropNerdJeff {
+				background-image: url(/jeffPics/nerdJeff.jpg);
+			}
+			div#bBoyJeff {
+				background-image: url(/jeffPics/bBoyJeff.jpg);
+			}
 	div.productContainer p {
 		margin: 10px 5px 10px 5px;
 	}
