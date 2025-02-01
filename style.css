@@ -1,6 +1,7 @@
 /* default small changes */
 * {
 	margin: 0;
+	outline: 1px dashed red;
 }
 body {
 	font-size: 1em;
@@ -170,7 +171,7 @@ div.heroText {
 }
 .productContainer {
 	margin: 10px	0px;
-	border: 1px dashed black;
+	/* border: 1px dashed black; */
  display: flex;
  justify-content: space-evenly;
  flex-wrap: wrap;
@@ -193,7 +194,7 @@ div.heroText {
 	}
 	div.productContainer p {
 		margin: 10px 5px 10px 5px;
-		border: 1px dashed black;
+	 /*	border: 1px dashed black; */
 	}
 /* .productContainer .productPic {
  width: 150px;
