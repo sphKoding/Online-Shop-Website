@@ -1,7 +1,7 @@
 /* default small changes */
 * {
 	margin: 0;
-	outline: 1px dashed red;
+	/* outline: 1px dashed red; */
 }
 body {
 	font-size: 1em;
