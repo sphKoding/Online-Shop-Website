@@ -32,8 +32,8 @@ h1, h4, p {
  color: #f04870;
 }
 div.assetBoxShadow {
-	width: 180px;
-	height:	250px;
+	width: 200px;
+	height:	260px;
 	margin: 12px;
 	box-shadow: 8px 10px 25px black;
 	background: white;
@@ -203,7 +203,7 @@ div.heroText {
 		div#cropEmoJeff {
 			background-image: url(/jeffPics/emoJeff.jpg);
 		}
-  div#cropNerdJeff, div#bBoyJeff {
+  div#cropAhjussiJeff, div#cropNerdJeff, div#bBoyJeff {
 			background-position: 0px -20px;
 		}
 			div#cropNerdJeff {
