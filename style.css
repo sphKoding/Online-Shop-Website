@@ -181,7 +181,7 @@ div.heroText {
 	 /* margin: 0px 0px 10px 0px; */
 	 /* border: 1px dashed black; */
  }
-	div#cropAhjussiJeff, div#cropAngyJeff, div#cropEmoJeff, div#cropNerdJeff, div#bBoyJeff {
+	div#cropAhjussiJeff, div#cropAngyJeff, div#cropEmoJeff, div#cropNerdJeff, div#bBoyJeff, div#cropRizzlyJeff, div#cropSigmaJeff, div#cropSleepyJeff {
   background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: scroll;
@@ -205,6 +205,15 @@ div.heroText {
 			div#bBoyJeff {
 				background-image: url(/jeffPics/bBoyJeff.jpg);
 			}
+		div#cropRizzlyJeff {
+		 background-image: url(/jeffPics/rizzlyJeff.jpg);
+		}
+		div#cropSigmaJeff {
+		 background-image: url(/jeffPics/sigmaJeff.jpg);
+		}
+		div#cropSleepyJeff {
+		 background-image: url(/jeffPics/sleepyJeff.jpg);
+		}
 	div.productContainer p {
 		margin: 10px 5px 10px 5px;
 	}
